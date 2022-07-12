@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Normalize start-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Normalize end-->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!--Header of page-->
+    <header class="header">
+      <div class="container flex-nav">
+        <nav class="nav flex-nav">
+          <a class="logo line" href="./index.html" lang="en"
+            >Web<span class="accent">Studio</span></a
+          >
+          <ul class="site-nav list">
+            <li class="item">
+              <a class="link current line" href="./index.html">Студия</a>
+            </li>
+            <li class="item">
+              <a class="link line" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item"><a class="link line" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts list flex-nav">
+          <li class="item">
+            <a class="link line" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="link line" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!--Main of Page-->
+    <main>
+      <!--Hero Section-->
+      <section class="hero">
+        <div class="container">
+          <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+          <button class="button" type="button">Заказать услугу</button>
+        </div>
+      </section>
+      <!--Benefits Section-->
+      <section class="benefits section">
+        <div class="container">
+          <h2 class="visually-hidden">Наши преимущества</h2>
+
+          <ul class="items list">
+            <li class="item">
+              <h3 class="title">Внимание к деталям</h3>
+              <p class="text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="title">Пунктуальность</h3>
+              <p class="text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="title">Планирование</h3>
+              <p class="text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="title">Современные технологии</h3>
+              <p class="text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--About Section-->
+      <section class="about section">
+        <div class="container">
+          <h2 class="title">Чем мы занимаемся</h2>
+          <ul class="items list">
+            <li class="item">
+              <img
+                src="./images/skill_01.jpg"
+                alt="Программирование"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="item">
+              <img
+                src="./images/skill_02.jpg"
+                alt="Подбор темы"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="item">
+              <img
+                src="./images/skill_03.jpg"
+                alt="Подбор цветовой палитры"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Team Section-->
+      <section class="team section">
+        <div class="container">
+          <h2 class="headline">Наша команда</h2>
+
+          <ul class="items list">
+            <li class="item">
+              <img
+                src="./images/team_igor_pd.jpg"
+                alt="Мужчина в очках и коричневой рубашке"
+                width="270"
+                height="260"
+              />
+              <div class="team-wrapper">
+                <h3 class="title">Игорь Демьяненко</h3>
+                <p class="text" lang="en">Product Designer</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./images/team_olga_fd.jpg"
+                alt="Блондинка в очках и белой рубашке"
+                width="270"
+                height="260"
+              />
+              <div class="team-wrapper">
+                <h3 class="title">Ольга Репина</h3>
+                <p class="text" lang="en">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./images/team_mikolay_m.jpg"
+                alt="Мужчина с короткой бородой в синей рубашке"
+                width="270"
+                height="260"
+              />
+              <div class="team-wrapper">
+                <h3 class="title">Николай Тарасов</h3>
+                <p class="text" lang="en">Marketing</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./images/team_mihail_ui.jpg"
+                alt="Мужчина в очках с бородой и в черной футболке"
+                width="270"
+                height="260"
+              />
+              <div class="team-wrapper">
+                <h3 class="title">Михаил Ермаков</h3>
+                <p class="text" lang="en">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!--Footer of Page-->
+    <footer class="footer">
+      <div class="container">
+        <a class="logo line" href="./index.html" lang="en"
+          >Web<span class="accent">Studio</span></a
+        >
+
+        <address class="address">
+          <a class="link line accent" href="">г. Киев, пр-т Леси Украинки, 26</a
+          ><br />
+          <a class="link line" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+          <br />
+          <a class="link line" href="tel:+380991111111">+38 099 111 11 11</a>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
