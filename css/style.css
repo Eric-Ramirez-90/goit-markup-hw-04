@@ -100,7 +100,11 @@ img {
   padding-bottom: 94px;
 }
 
-/* WebStudio Page*/
+/**
+  |============================
+  | WebStudio Page
+  |============================
+*/
 
 /* Main Header Flex */
 .flex-nav {
@@ -161,6 +165,7 @@ img {
 
 .contacts .link {
   display: flex;
+  justify-content: center;
   align-items: center;
 
   color: var(--primery-text-color);
@@ -248,7 +253,8 @@ img {
   display: flex;
   width: 270px;
   height: 120px;
-  padding: 25px 100px;
+  justify-content: center;
+  align-items: center;
   margin-bottom: var(--card-set-gap);
 
   background-color: var(--team-background-color);
@@ -337,20 +343,22 @@ img {
 .team-links {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .team-link {
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   color: #afb1b8;
-  padding: 12px;
   width: 44px;
   height: 44px;
 
   border-radius: 50%;
 }
 .icon-team {
-  height: 20px;
   width: 20px;
+  height: 20px;
   fill: currentColor;
 }
 .team-link:hover,
@@ -381,9 +389,11 @@ img {
 }
 .client-link {
   display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
 
   color: #afb1b8;
 
@@ -442,7 +452,62 @@ img {
   color: var(--hero-text-color);
 }
 
-/* Page Porfolio */
+/* Connect Section */
+
+.footer .container {
+  display: flex;
+  align-items: center;
+}
+
+.connect {
+  margin-left: 70px;
+}
+
+.connect-title {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+.connect-items {
+  display: flex;
+}
+.connect-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--hero-text-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+}
+.icon-connect {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.connect-link:hover,
+.connect-link:focus {
+  background-color: var(--accent-text-color);
+  color: var(--hero-text-color);
+}
+.connect-item {
+  display: flex;
+}
+.connect-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+/**
+  |============================
+  | Page Porfolio
+  |============================
+*/
 
 /* Section Filters Button */
 .filter {
