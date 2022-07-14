@@ -244,11 +244,6 @@ img {
   display: flex;
   gap: var(--card-set-gap);
 }
-.benefits .item {
-  flex-basis: calc(
-    (100% - var(--card-set-gap) * var(--item)) / var(--item) + 1
-  );
-}
 .thumb {
   display: flex;
   width: 270px;
@@ -293,9 +288,6 @@ img {
   font-size: 36px;
   line-height: 1.16;
 }
-.about .item {
-  flex-basis: calc((100% - 30px * (var(--item) - 1)) / var(--item));
-}
 
 /* Section Team */
 .team {
@@ -319,10 +311,6 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-
-  flex-basis: calc(
-    (100% - var(--card-set-gap) * var(--item)) / var(--item) + 1
-  );
 }
 .team .title {
   margin-bottom: 10px;
@@ -376,6 +364,42 @@ img {
   padding-right: 5px;
   padding-bottom: 30px;
   padding-left: 5px;
+}
+/* Section Client */
+.client-headline {
+  margin-bottom: 50px;
+
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.client-items {
+  display: flex;
+  gap: var(--card-set-gap);
+}
+.client-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+
+  color: #afb1b8;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.icon-client {
+  width: 106px;
+  height: 60px;
+
+  fill: currentColor;
+}
+.client-link:hover,
+.client-link:focus {
+  color: var(--accent-text-color);
+  border-color: var(--accent-text-color);
 }
 
 /* Footer */
