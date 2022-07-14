@@ -338,7 +338,39 @@ img {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-bottom: 16px;
 }
+.item-link {
+  display: flex;
+}
+.item-link:not(:last-child) {
+  margin-right: 10px;
+}
+.team-links {
+  display: flex;
+  justify-content: center;
+}
+.team-link {
+  display: flex;
+
+  color: #afb1b8;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+}
+.icon-team {
+  height: 20px;
+  width: 20px;
+  fill: currentColor;
+}
+.team-link:hover,
+.team-link:focus {
+  background-color: var(--accent-text-color);
+  color: var(--hero-text-color);
+}
+
 .team-wrapper {
   padding-top: 30px;
   padding-right: 5px;
